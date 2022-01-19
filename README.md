@@ -1,8 +1,13 @@
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
+# MyProject
 
-# myProject
+## 简单介绍
 
-In this repo, I will record nearly all my projects finished in my student life.
+我会将我大一以来（2018年9月）的几乎所有代码整理后存放在这个仓库里面，方便我后面找工作hhh
 
-It might include the homework, some ideas comes into my mind and so on.
+由于其中大部分是课程作业，所以里面的代码在配置好相应的环境后肯定是能运行的（如果不能运行，欢迎大家提ISSUE）
+
+当然，也可能会有一些奇思妙想出来的小点子没有被实现，但以后总会有的
+
+## 仓库文件结构
+
+## 最后说一句
