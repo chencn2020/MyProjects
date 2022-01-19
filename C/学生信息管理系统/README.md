@@ -8,6 +8,7 @@
 
 ### 文件结构
 
+```
 ----学生信息管理系统\      
     |----getFileTree.py    
     |----image\
@@ -30,6 +31,7 @@
     |    |----main.c
     |    |----stu_file.c
     |    |----stu_service.c
+```
 
 ### 环境配置
 
@@ -62,6 +64,8 @@
 ## 简单演示
 
 <video src="image/README/video.mp4" width=100% height=100% controls="controls"></video>
+
+[![Watch the video](image/README/img1.jpg)](image/README/video.mp4)
 
 ## 版权申明©
 
