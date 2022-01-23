@@ -62,7 +62,7 @@ Player O, please enter the number(1-9) to place your mark:
 
 ## 运行展示
 
-1. 点击calendar.c用DEV打开项目
+1. 点击TIC-TAC-TOE.c用DEV打开项目
    ![DEV打开界面](image/README/devOpen.jpg)
 2. 玩一把
    ![玩一把1](image/README/img1.png)
