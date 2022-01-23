@@ -10,7 +10,6 @@
 
 ```
 ----学生信息管理系统\      
-    |----getFileTree.py    
     |----image\
     |    |----README\      
     |    |    |----img1.jpg
@@ -67,9 +66,9 @@
 
 [![Watch the video](image/README/img1.jpg)](image/README/video.mp4)
 
-## 版权申明©
+## 版权声明©
 
-所有代码均为[Zevin](https://github.com/chencn2020)原创
+该项目所有代码均为[Zevin](https://github.com/chencn2020)原创
 
 如果有问题，欢迎大家提ISSUE
 
