@@ -1,0 +1,6 @@
+hello	你好
+hi	你好
+afternoon	下午
+dictionary	字典
+interesting	有趣的
+upset		沮丧的
