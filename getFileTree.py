@@ -3,6 +3,8 @@ from pathlib import Path
 tree_str = ''
  
 def generate_tree(pathname, n=0):
+    # if n >= 3:
+    #     return
     global tree_str
     if pathname.is_file():
         tree_str += '    |' * n + '-' * 4 + pathname.name + '\n'
