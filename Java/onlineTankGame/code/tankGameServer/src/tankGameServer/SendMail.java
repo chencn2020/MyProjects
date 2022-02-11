@@ -45,7 +45,7 @@ public class SendMail {
 		Session session = Session.getDefaultInstance(properties, new Authenticator() {
 			@Override
 			protected PasswordAuthentication getPasswordAuthentication() {
-				return new PasswordAuthentication("838773760@qq.com", "lywvbtfwzwmxbcbg");
+				return new PasswordAuthentication("yourMail", "yourAuthorizationCode");
 			}
 		});
 
@@ -56,17 +56,17 @@ public class SendMail {
 		Transport transport = session.getTransport();
 
 		// Connect the server
-		transport.connect("smtp.qq.com", "838773760@qq.com", "lywvbtfwzwmxbcbg");
+		transport.connect("smtp.qq.com", "yourMail", "yourAuthorizationCode");
 
 		if (type.equals("User")) {
 			// Create a mail object
 			MimeMessage mimeMessage = new MimeMessage(session);
 
 			// Set the sender mail
-			mimeMessage.setFrom(new InternetAddress("838773760@qq.com"));
+			mimeMessage.setFrom(new InternetAddress("yourMail"));
 
 			// Set the receiver mail
-			mimeMessage.setRecipient(Message.RecipientType.TO, new InternetAddress("1261646386@qq.com"));
+			mimeMessage.setRecipient(Message.RecipientType.TO, new InternetAddress("yourAnotherEmail"));
 
 			// Set the mail title
 			mimeMessage.setSubject("Some suggestions");
@@ -83,7 +83,7 @@ public class SendMail {
 			MimeMessage message = new MimeMessage(session);
 
 			// Set the sender
-			message.setFrom(new InternetAddress("838773760@qq.com"));
+			message.setFrom(new InternetAddress("yourMail"));
 
 			// Set the receiver
 			message.addRecipient(Message.RecipientType.TO, new InternetAddress(content));

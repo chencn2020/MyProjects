@@ -74,7 +74,7 @@ public class TankGameServer implements Runnable {
 			// Connect the sql
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			String url = "jdbc:mysql://localhost:3306/tankGame?useSSL=false&serverTimezone=UTC";
-			conn = DriverManager.getConnection(url, "root", "123456");
+			conn = DriverManager.getConnection(url, "yourUserName", "yourUserRoot");
 			stat = conn.createStatement();
 			DatabaseMetaData dbMetaData = conn.getMetaData();
 
